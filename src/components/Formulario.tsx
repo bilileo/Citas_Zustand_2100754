@@ -3,7 +3,7 @@ import Error from './Error'
 import { usePacienteStore } from '../store/store'
 import type { DraftPatient } from '../types/index.ts'
 import { toast } from 'react-toastify'
-import React, { act, useEffect } from 'react'
+import { useEffect } from "react";
 
 
 const Formulario = () => {
